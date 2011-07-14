@@ -74,14 +74,30 @@ CREATE TABLE `gen_sequence` (
   `sequence_id` varchar(255) NOT NULL,
   `next_value` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+INSERT INTO `auth_user`
+(`user_id`,
+`entity_Id`,
+`version`,
+`user_Name`,
+`password`)
+VALUES
+(1,1,0,'root','asd')$$
+
+INSERT INTO `gen_sequence`
+(`sequence_id`,
+`next_value`)
+VALUES
+('gen_entity',10)$$
+
+INSERT INTO `gen_entity`
+(`entity_id`,
+`entity_type_id`)
+VALUES
+(1,0)$$
 }}}
 
 change the settings to match your database.
 
-   
-  
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+==Run the project==   
+Their is a ant script ('build.xml') included to run the application, with debug mode. The IntelliJ IDEA project is already setup to debug the application. First run the target build in the ant project. After than run the target 'devmode'. Once it's listening to the port execute the IntelliJ IDEA configuration named 'Remote'. This should bring up the GWT Development Mode window. And from their you can use the URL to paste onto the browser(which need to be installed GWT plug-in). And use the user name 'root' with password 'asd' to logon to the system.
