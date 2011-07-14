@@ -1,4 +1,4 @@
-#How to setup the project.
+#summary How to setup the project.
 
 = Setup =
   # Checkout the code
