@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../business/business.iml" filepath="$PROJECT_DIR$/../business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../loaderlogic/loaderlogic.iml" filepath="$PROJECT_DIR$/../loaderlogic/loaderlogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loaderweb.iml" filepath="$PROJECT_DIR$/loaderweb.iml" />
+    </modules>
+  </component>
+</project>
+

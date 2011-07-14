@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dbgate.1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../lib/dbgate.1.0.0/dbgate.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../lib/dbgate.1.0.0/dbgate-src.jar!/" />
+    </SOURCES>
+  </library>
+</component>
