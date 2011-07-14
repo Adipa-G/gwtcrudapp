@@ -1,0 +1,30 @@
+#How to setup the project
+
+=Setup=
+  # Checkout the code
+  # Setup the database
+  # Run the project
+
+==Checkout the code==
+This project is developed based on IntelliJ IDEA Community Edition, First checkout the code from the Google code repository using a SVN Client. Once project is checked out the
+
+==Setup the database==
+The project is using a MySQL database, and the database configuration has to be setup in the /conf/config.properties file in the loaderweb project.
+
+{{{
+database_name=bookingengine
+database_pass=
+database_user=root
+database_port=3306
+database_ip=127.0.0.1
+}}}
+
+change the settings to match your database.
+
+   
+  
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
