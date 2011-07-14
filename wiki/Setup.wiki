@@ -19,6 +19,63 @@ database_port=3306
 database_ip=127.0.0.1
 }}}
 
+apply the following script to setup the database. Alternatively you can execute the function InstallUtil.patchDB against the database so that it will setup the database.
+
+{{{
+delimiter $$
+
+CREATE TABLE `auth_user` (
+  `user_id` int(11) NOT NULL,
+  `entity_Id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `user_Name` varchar(100) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+CREATE TABLE `gen_config` (
+  `config_name` varchar(255) NOT NULL,
+  `config_value` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+CREATE TABLE `gen_entity` (
+  `entity_id` int(11) NOT NULL,
+  `entity_type_id` int(11) NOT NULL,
+  PRIMARY KEY (`entity_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+CREATE TABLE `gen_entity_type` (
+  `entity_type_id` int(11) NOT NULL,
+  `entity_Type_Code` varchar(20) NOT NULL,
+  PRIMARY KEY (`entity_type_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+CREATE TABLE `gen_entity_property` (
+  `entity_id` int(11) NOT NULL,
+  `entity_type_id` int(11) NOT NULL,
+  `property_type_id` int(11) NOT NULL,
+  `property_Value` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`entity_id`,`entity_type_id`,`property_type_id`),
+  CONSTRAINT `fk_entity2entity_property` FOREIGN KEY (`entity_id`) REFERENCES `gen_entity` (`entity_id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+CREATE TABLE `gen_entity_property_type` (
+  `entity_type_id` int(11) NOT NULL,
+  `property_type_id` int(11) NOT NULL,
+  `property_Code` varchar(20) NOT NULL,
+  `property_Description` varchar(20) NOT NULL,
+  `property_Type` varchar(20) NOT NULL,
+  `default_Value` varchar(20) NOT NULL,
+  PRIMARY KEY (`entity_type_id`,`property_type_id`),
+  CONSTRAINT `fk_entity_type2entity_property` FOREIGN KEY (`entity_type_id`) REFERENCES `gen_entity_type` (`entity_type_id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+
+CREATE TABLE `gen_sequence` (
+  `sequence_id` varchar(255) NOT NULL,
+  `next_value` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
+}}}
+
 change the settings to match your database.
 
    
