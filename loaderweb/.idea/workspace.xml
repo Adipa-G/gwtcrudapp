@@ -2,217 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b5888b71-29a6-48a0-956e-1848e0f75a00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/session" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/operations" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/user/UserDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/GetSessionInfoDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/business.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/exceptions/auth/UserNotLoggedInException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/user/IUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/session/SessionRoot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDDeleteResponseDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/shared" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/admin/UserMgmtView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server/CRUDServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/pool-config.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/IAuthenticationServiceAsync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/IService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/workspace/MasterController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/SetSessionInfoDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/repositories/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Index.launch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/LongEntityKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/auth/LogonView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/admin/user_nav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/ICRUDService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/operations/edit_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/workspace/admin/UserMgmtModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dbgate_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/AbstractRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/workspace/MasterModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/AbstractModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDDeleteRequestDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/ioc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/GSEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/workspace/CRUDController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/auth/impl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/Index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/workspace/admin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/ConfigManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/IEntityKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/TwoLongEntityKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/exceptions/LoaderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/admin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/admin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/DataRetrievalException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/Sequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server/user/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/shared/user/UserVerifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/IRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/server/AuthenticationServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/workspace" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/auth/UserTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/GSEntityProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/session/SessionKeys.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/ioc/IocRegister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDUpdateRequestDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/exceptions/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/IView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/workspace/admin/UserMgmtController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/SequenceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loaderweb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/shared" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/shared/LogonVerifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gwt_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/AbstractService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/auth/UserSequenceGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDCreateResponseDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/AbstractView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/install/InstallUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/ThreeLongEntityKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/loaderlogic.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDUpdateResponseDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/repositories/RepositoryTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/exceptions" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/ConfigConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/DBClassesTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/AuthResponseDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/auth/LogonModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/gen/GSEntityTypeTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/AbstractEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/ICRUDServiceAsync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/GSEntityPropertyType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDCreateRequestDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/IAuthenticationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/derby_10_6_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysqlconnector_5_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/workspace/admin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/IDbTransaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/DbClassTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/ViewType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/DbTransactionException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/gen/GSEntityEntryTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/IEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/ICRUDIndexDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/gen/GSEntityPropertyTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/MasterView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/workspace" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/Index.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/app_footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/DbTransaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src-test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/repositories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/repositories/RepositoryTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/workspace/NavigationModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/BusinessException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/Auth.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/ViewFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/EntityEntrySequenceGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDListRequestDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/IController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDListResponseDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/AbstractController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/workspace/NavigationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/gen/GSEntityPropertyTypeTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/ICRUDObjectDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/AuthRequestDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/picocontainer_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/controller/auth/LogonController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/operations/edit_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/auth/impl/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/IModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/GSEntityEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/shared/user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/Workspace.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/Index.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/AbstractLongEntityKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/app_header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/user/IUserServiceAsync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/Index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/CRUDSingleLongIndexDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/DataPersistException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/GSInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/EntityTypeSequenceGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/WEB-INF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/images/admin/admin_header.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/NavigationView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/auth" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/MasterChildView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/CRUDView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/pool-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/entities/gen" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/gen/GSEntityType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/model/workspace/CRUDModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/DBConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/adipa/loader/client/view" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/VersionMisMatchException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/repositories/auth/IUserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/RandomData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src-test/com/adipa/repositories/auth/UserRepositoryTestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server/user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/opensource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../business/src/com/adipa/entities/auth/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/install" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../loaderlogic/src/com" />
+      <change type="MOVED" beforePath="Y:\dev\java\community\gwtcrudapp\trunk\loaderlogic\src\com\adipa\loader\server\install" afterPath="$PROJECT_DIR$/../business/src/com/adipa/install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="Y:\dev\java\community\gwtcrudapp\trunk\loaderlogic\src\com\adipa\loader\server\install\InstallUtil.java" afterPath="$PROJECT_DIR$/../business/src/com/adipa/install/InstallUtil.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="loaderweb.iws" />
@@ -292,19 +84,91 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BusinessException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../business/src/com/adipa/BusinessException.java">
+      <file leaf-file-name="IAuthenticationService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/IAuthenticationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+            <state line="10" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbTransactionException.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../business/src/com/adipa/DbTransactionException.java">
+      <file leaf-file-name="AuthenticationServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/server/AuthenticationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="139" selection-end="139" vertical-scroll-proportion="0.2943723">
+            <state line="17" column="38" selection-start="596" selection-end="621" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRUDServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server/CRUDServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="37" selection-start="435" selection-end="450" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserVerifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/shared/user/UserVerifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMgmtView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/admin/UserMgmtView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="38" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MasterChildView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/MasterChildView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="22" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractView.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/adipa/loader/client/view/AbstractView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="22" selection-start="444" selection-end="444" vertical-scroll-proportion="0.33830845">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDto.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/user/UserDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server/user/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="28" selection-start="929" selection-end="944" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/AbstractService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="22" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -324,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../loaderlogic/src/com/bizsoft/loader/workspace/client/CRUDListResponseDto.java" />
         <option value="$PROJECT_DIR$/../loaderlogic/src/com/bizsoft/loader/workspace/client/CRUDResponse.java" />
         <option value="$PROJECT_DIR$/../loaderlogic/src/com/bizsoft/loader/workspace/client/CRUDUpdateResponseDto.java" />
         <option value="$PROJECT_DIR$/src/com/bizsoft/loader/client/view/AbstractView.java" />
@@ -340,6 +203,7 @@
         <option value="$PROJECT_DIR$/../business/src-test/com/bizsoft/RandomData.java" />
         <option value="$PROJECT_DIR$/src/com/adipa/loader/Index.gwt.xml" />
         <option value="$PROJECT_DIR$/conf/config.properties" />
+        <option value="$PROJECT_DIR$/../business/src/com/adipa/install/InstallUtil.java" />
       </list>
     </option>
   </component>
@@ -378,8 +242,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -395,7 +259,363 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderlogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loaderlogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,36 +626,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adipa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loaderweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adipa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repositories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,8 +647,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -679,11 +869,10 @@
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19225806" sideWeight="0.66172504" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.393531" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -693,6 +882,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -753,110 +943,114 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../business/src/com/adipa/repositories/AbstractRepository.java">
+    <entry file="file://$PROJECT_DIR$/../business/src-test/com/adipa/entities/gen/GSEntityPropertyTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../business/src/com/adipa/IDbTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="17" column="13" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
+    <entry file="file://$PROJECT_DIR$/../business/src-test/com/adipa/repositories/auth/UserRepositoryTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="22.08">
+        <state line="16" column="13" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/../business/src-test/com/adipa/entities/DbClassTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../business/src-test/com/adipa/entities/DBClassesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="27" selection-start="796" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../business/src-test/com/adipa/repositories/RepositoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="849" selection-end="864" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/Auth.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../business/business.iml">
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/server/AbstractService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="21" column="22" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/ant.xml">
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/client/IAuthenticationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="17" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/auth/server/AuthenticationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="17" column="38" selection-start="596" selection-end="621" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/dbgate_1_0_0.xml">
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/client/user/UserDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/derby_10_6_1_0.xml">
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server/user/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="23" column="28" selection-start="929" selection-end="944" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/gwt_2_3_0.xml">
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/server/CRUDServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="17" column="37" selection-start="435" selection-end="450" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/junit_4_0_0.xml">
+    <entry file="file://$PROJECT_DIR$/../loaderlogic/src/com/adipa/loader/workspace/shared/user/UserVerifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/mysqlconnector_5_1_1_3.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/admin/UserMgmtView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="35" column="38" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/picocontainer_2_1_1.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/adipa/loader/client/view/workspace/MasterChildView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="22" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../business/src/com/adipa/BusinessException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/adipa/loader/client/view/AbstractView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../business/src/com/adipa/DbTransactionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="139" selection-end="139" vertical-scroll-proportion="0.2943723">
+        <state line="14" column="22" selection-start="444" selection-end="444" vertical-scroll-proportion="0.33830845">
           <folding />
         </state>
       </provider>

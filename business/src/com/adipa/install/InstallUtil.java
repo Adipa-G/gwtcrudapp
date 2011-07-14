@@ -1,4 +1,4 @@
-package com.adipa.loader.server.install;
+package com.adipa.install;
 
 import com.adipa.DbTransaction;
 import com.adipa.DbTransactionException;
