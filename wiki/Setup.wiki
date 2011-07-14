@@ -90,6 +90,12 @@ INSERT INTO `gen_sequence`
 VALUES
 ('gen_entity',10)$$
 
+INSERT INTO `gen_sequence`
+(`sequence_id`,
+`next_value`)
+VALUES
+('auth_user',10)$$
+
 INSERT INTO `gen_entity`
 (`entity_id`,
 `entity_type_id`)
