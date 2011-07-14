@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="Index" default="build" basedir=".">
+    <!-- Arguments to gwtc and devmode targets -->
+    <property name="gwt.args" value=""/>
+
+    <!-- Configure path to GWT SDK -->
+    <property name="gwt.sdk" location="../lib/gwt.2.3.0"/>
+    <property name="junit" location="../lib/junit.4.0"/>
+    <property name="dbgate" location="../lib/dbgate.1.0.0"/>
+    <property name="picocontainer" location="../lib/picocontainer.2.1.1"/>
+    <property name="mysql" location="../lib/mysqlconnector.5.1.1.3"/>
+
+    <path id="project.class.path">
+        <pathelement location="war/WEB-INF/classes"/>
+        <pathelement location="${gwt.sdk}/gwt-user.jar"/>
+        <fileset dir="${gwt.sdk}" includes="gwt-dev*.jar"/>
+        <fileset dir="${junit}" includes="*.jar"/>
+        <fileset dir="${dbgate}" includes="*.jar"/>
+        <fileset dir="${picocontainer}" includes="*.jar"/>
+        <fileset dir="${mysql}" includes="*.jar"/>
+        <!-- Add any additional non-server libs (such as JUnit) -->
+        <fileset dir="war/WEB-INF/lib" includes="**/*.jar"/>
+    </path>
+
+    <target name="libs" description="Copy libs to WEB-INF/lib">
+        <mkdir dir="war/WEB-INF/lib"/>
+        <copy todir="war/WEB-INF/lib" file="${gwt.sdk}/gwt-servlet.jar"/>
+        <copy todir="war/WEB-INF/lib" file="${gwt.sdk}/gwt-servlet-deps.jar"/>
+        <copy todir="war/WEB-INF/lib" file="${dbgate}/dbgate.jar"/>
+        <copy todir="war/WEB-INF/lib" file="${picocontainer}/picocontainer-2.11.jar"/>
+        <copy todir="war/WEB-INF/lib" file="${mysql}/mysql-connector-java-5.1.13-bin.jar"/>
+        <!-- Add any additional server libs that need to be copied -->
+    </target>
+
+    <target name="javac" depends="libs" description="Compile java source to bytecode">
+        <mkdir dir="war/WEB-INF/classes"/>
+        <javac srcdir="../business/src" includes="**" encoding="utf-8"
+               destdir="war/WEB-INF/classes"
+               source="1.5" target="1.5" nowarn="true"
+               debug="true" debuglevel="lines,vars,source">
+            <classpath refid="project.class.path"/>
+        </javac>
+        <javac srcdir="../loaderlogic/src" includes="**" encoding="utf-8"
+               destdir="war/WEB-INF/classes"
+               source="1.5" target="1.5" nowarn="true"
+               debug="true" debuglevel="lines,vars,source">
+            <classpath refid="project.class.path"/>
+        </javac>
+        <javac srcdir="src" includes="**" encoding="utf-8"
+               destdir="war/WEB-INF/classes"
+               source="1.5" target="1.5" nowarn="true"
+               debug="true" debuglevel="lines,vars,source">
+            <classpath refid="project.class.path"/>
+        </javac>
+        <copy todir="war/WEB-INF/classes">
+            <fileset dir="../loaderlogic/src" excludes="**/*.java"/>
+            <fileset dir="src" excludes="**/*.java"/>
+        </copy>
+    </target>
+
+    <target name="gwtc" depends="javac" description="GWT compile to JavaScript (production mode)">
+        <java failonerror="true" fork="true" classname="com.google.gwt.dev.Compiler">
+            <classpath>
+                <pathelement location="../loaderlogic/src"/>
+                <pathelement location="src"/>
+                <path refid="project.class.path"/>
+                <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA.jar"/>
+                <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA-sources.jar"/>
+            </classpath>
+            <!-- add jvmarg -Xss16M or similar if you see a StackOverflowError -->
+            <jvmarg value="-Xmx256M"/>
+            <arg line="-war"/>
+            <arg value="war"/>
+            <!-- Additional arguments like -style PRETTY or -logLevel DEBUG -->
+            <arg line="${gwt.args}"/>
+            <arg value="com.adipa.loader.Index"/>
+        </java>
+    </target>
+
+    <target name="devmode" depends="javac" description="Run development mode">
+        <java failonerror="true" fork="true" classname="com.google.gwt.dev.DevMode">
+            <classpath>
+                <pathelement location="../loaderlogic/src"/>
+                <pathelement location="src"/>
+                <path refid="project.class.path"/>
+                <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA.jar"/>
+                <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA-sources.jar"/>
+            </classpath>
+            <jvmarg value="-Xmx256M"/>
+            <jvmarg value="-Xdebug" />
+            <jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000" />
+            <arg value="-startupUrl"/>
+            <arg value="Index.html"/>
+            <arg line="-war"/>
+            <arg value="war"/>
+            <!-- Additional arguments like -style PRETTY or -logLevel DEBUG -->
+            <arg line="${gwt.args}"/>
+            <arg value="com.adipa.loader.Index"/>
+        </java>
+    </target>
+
+    <!--
+    Test targets suppressed because -junit argument was not specified when running webAppCreator.
+
+      <target name="javac.tests" depends="javac" description="Compiles test code">
+        <javac srcdir="test" includes="**" encoding="utf-8"
+          source="1.5" target="1.5" nowarn="true"
+          destdir="war/WEB-INF/classes"
+          debug="true" debuglevel="lines,vars,source">
+          <classpath location="path_to_the_junit_jar"/>
+          <classpath refid="project.class.path"/>
+        </javac>
+      </target>
+
+      <target name="test.dev" depends="javac.tests" description="Run development mode tests">
+        <mkdir dir="reports/htmlunit.dev" />
+        <junit fork="yes" printsummary="yes" haltonfailure="yes">
+          <jvmarg line="-Xmx256m" />
+          <sysproperty key="gwt.args" value="-standardsMode -logLevel WARN" />
+          <sysproperty key="java.awt.headless" value="true" />
+          <classpath>
+            <pathelement location="src" />
+            <pathelement location="test" />
+            <path refid="project.class.path" />
+            <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA.jar" />
+            <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA-sources.jar" />
+            <pathelement location="path_to_the_junit_jar" />
+          </classpath>
+          <batchtest todir="reports/htmlunit.dev" >
+            <fileset dir="test" >
+              <include name="**/*Test.java" />
+            </fileset>
+          </batchtest>
+          <formatter type="plain" />
+          <formatter type="xml" />
+        </junit>
+      </target>
+
+      <target name="test.prod" depends="javac.tests" description="Run production mode tests">
+        <mkdir dir="reports/htmlunit.prod" />
+        <junit fork="yes" printsummary="yes" haltonfailure="yes">
+          <jvmarg line="-Xmx256m" />
+          <sysproperty key="gwt.args" value="-prod -standardsMode -logLevel WARN -standardsMode -out www-test" />
+          <sysproperty key="java.awt.headless" value="true" />
+          <classpath>
+            <pathelement location="src" />
+            <pathelement location="test" />
+            <path refid="project.class.path" />
+            <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA.jar" />
+            <pathelement location="Y:/dev/java/tools/gwt-2.3.0/validation-api-1.0.0.GA-sources.jar" />
+            <pathelement location="path_to_the_junit_jar" />
+          </classpath>
+          <batchtest todir="reports/htmlunit.prod" >
+            <fileset dir="test" >
+              <include name="**/*Test.java" />
+            </fileset>
+          </batchtest>
+          <formatter type="plain" />
+          <formatter type="xml" />
+        </junit>
+      </target>
+
+      <target name="test" description="Run development and production mode tests">
+        <antcall target="test.dev" />
+        <antcall target="test.prod" />
+      </target>
+    -->
+
+    <target name="hosted" depends="devmode"
+            description="Run development mode (NOTE: the 'hosted' target is deprecated)"/>
+
+    <target name="build" depends="gwtc" description="Build this project"/>
+
+    <target name="war" depends="build" description="Create a war file">
+        <zip destfile="Index.war" basedir="war"/>
+    </target>
+
+    <target name="clean" description="Cleans this project">
+        <delete dir="war/WEB-INF/classes" failonerror="false"/>
+        <delete dir="war/index" failonerror="false"/>
+    </target>
+
+</project>
