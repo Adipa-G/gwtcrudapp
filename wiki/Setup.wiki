@@ -1,6 +1,6 @@
 #How to setup the project.
 
-=Setup=
+= Setup =
   # Checkout the code
   # Setup the database
   # Run the project
