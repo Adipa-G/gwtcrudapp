@@ -1,5 +1,7 @@
 package com.adipa.loader.auth.client;
 
+import com.google.gwt.user.client.rpc.IsSerializable;
+
 import java.io.Serializable;
 
 /**

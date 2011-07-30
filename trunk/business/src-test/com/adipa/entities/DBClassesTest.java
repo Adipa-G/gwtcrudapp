@@ -26,14 +26,14 @@ import java.util.logging.Logger;
  * Time: 10:53:08 PM
  * To change this template use File | Settings | File Templates.
  */
-public class DBClassesTests
+public class DBClassesTest
 {
     @BeforeClass
     public static void before()
     {
         try
         {
-            Logger.getLogger(DBClassesTests.class.getName()).info("Starting in-memory database for unit tests");
+            Logger.getLogger(DBClassesTest.class.getName()).info("Starting in-memory database for unit tests");
             DBConnector dbConnector = new DBConnector("jdbc:derby:memory:unit-testing-dbclassestestbase;create=true","org.apache.derby.jdbc.EmbeddedDriver", DBConnector.DB_DERBY);
             Connection con = dbConnector.getConnection();
 
@@ -51,7 +51,7 @@ public class DBClassesTests
         catch (Exception ex)
         {
             ex.printStackTrace();
-            Logger.getLogger(DBClassesTests.class.getName()).severe("Exception during database startup.");
+            Logger.getLogger(DBClassesTest.class.getName()).severe("Exception during database startup.");
         }
     }
 
@@ -208,7 +208,7 @@ public class DBClassesTests
     @AfterClass
     public static void after()
     {
-        Logger.getLogger(DBClassesTests.class.getName()).info("Stopping in-memory database.");
+        Logger.getLogger(DBClassesTest.class.getName()).info("Stopping in-memory database.");
         try
         {
             DriverManager.getConnection("jdbc:derby:memory:unit-testing-dbclassestestbase;shutdown=true").close();

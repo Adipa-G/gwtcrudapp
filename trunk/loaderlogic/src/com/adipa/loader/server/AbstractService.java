@@ -1,6 +1,7 @@
 package com.adipa.loader.server;
 
 import com.adipa.loader.server.exceptions.auth.UserNotLoggedInException;
+import com.adipa.loader.server.session.ISessionToServeletLink;
 import com.adipa.loader.server.session.SessionKeys;
 import com.adipa.loader.server.session.SessionRoot;
 import com.google.gwt.user.client.rpc.SerializationException;
@@ -22,6 +23,7 @@ import java.util.logging.Logger;
 public abstract class AbstractService extends RemoteServiceServlet implements IService
 {
     protected Logger log;
+    protected ISessionToServeletLink servletLink;
 
     @Override
     public String processCall(String payload) throws SerializationException
@@ -36,6 +38,7 @@ public abstract class AbstractService extends RemoteServiceServlet implements IS
         try
         {
             log = Logger.getLogger(getClass().getName());
+            servletLink = new SessionToServletLink();
             checkIfAuthenticated();
         }
         catch (UserNotLoggedInException e)
@@ -44,6 +47,11 @@ public abstract class AbstractService extends RemoteServiceServlet implements IS
             return;
         }
         connectToDB();
+    }
+
+    public void setServletLink(ISessionToServeletLink servletLink)
+    {
+        this.servletLink = servletLink;
     }
 
     private void connectToDB()
@@ -101,13 +109,29 @@ public abstract class AbstractService extends RemoteServiceServlet implements IS
     @Override
     public void checkIfAuthenticated() throws UserNotLoggedInException
     {
-        javax.servlet.http.HttpServletRequest request = this.getThreadLocalRequest();
-        SessionRoot sessionRoot = (SessionRoot)request.getSession().getAttribute(SessionKeys.SESSION_ROOT);
+        SessionRoot sessionRoot = servletLink.getSessionRoot();
         if (sessionRoot == null
             || sessionRoot.getUserName() == null
                 || sessionRoot.getUserName().length() == 0)
         {
             throw new UserNotLoggedInException("No user logged in for current session");
+        }
+    }
+
+    class SessionToServletLink implements ISessionToServeletLink
+    {
+        @Override
+        public SessionRoot getSessionRoot()
+        {
+            javax.servlet.http.HttpServletRequest request = AbstractService.this.getThreadLocalRequest();
+            return (SessionRoot)request.getSession().getAttribute(SessionKeys.SESSION_ROOT);
+        }
+
+        @Override
+        public void setSessionRoot(SessionRoot sessionRoot)
+        {
+            javax.servlet.http.HttpServletRequest request = AbstractService.this.getThreadLocalRequest();
+            request.getSession().setAttribute(SessionKeys.SESSION_ROOT,sessionRoot);
         }
     }
 }

@@ -38,10 +38,9 @@ public class AuthenticationServiceImpl extends AbstractService implements IAuthe
             User user =  userRepository.getByUserName(requestDto.getUserName());
             if (user != null && user.getPassword().equals(requestDto.getPassword()))
             {
-                javax.servlet.http.HttpServletRequest request = this.getThreadLocalRequest();
                 SessionRoot sessionRoot = new SessionRoot();
                 sessionRoot.setUserName(user.getUserName());
-                request.getSession().setAttribute(SessionKeys.SESSION_ROOT,sessionRoot);
+                servletLink.setSessionRoot(sessionRoot);
 
                 log.info(String.format("logon successful for user %s",requestDto.getUserName()));
                 return new AuthResponseDto(true,"Logon success");
@@ -59,8 +58,7 @@ public class AuthenticationServiceImpl extends AbstractService implements IAuthe
     @Override
     public void setSessionInfo(SetSessionInfoDto sessionInfoDto) throws IllegalArgumentException
     {
-        javax.servlet.http.HttpServletRequest request = this.getThreadLocalRequest();
-        SessionRoot sessionRoot = (SessionRoot)request.getSession().getAttribute(SessionKeys.SESSION_ROOT);
+        SessionRoot sessionRoot = servletLink.getSessionRoot();
         if (sessionRoot == null)
         {
             return;
@@ -74,8 +72,7 @@ public class AuthenticationServiceImpl extends AbstractService implements IAuthe
     @Override
     public GetSessionInfoDto getSessionInfo() throws IllegalArgumentException
     {
-        javax.servlet.http.HttpServletRequest request = this.getThreadLocalRequest();
-        SessionRoot sessionRoot = (SessionRoot)request.getSession().getAttribute(SessionKeys.SESSION_ROOT);
+        SessionRoot sessionRoot = servletLink.getSessionRoot();
 
         GetSessionInfoDto getSessionInfoDto = new GetSessionInfoDto();
         if (sessionRoot == null
