@@ -1,8 +1,8 @@
 package com.adipa.loader.server;
 
 import com.adipa.entities.gen.*;
+import com.adipa.install.InstallUtil;
 import com.adipa.loader.auth.server.AuthenticationServiceImpl;
-import com.adipa.loader.server.install.InstallUtil;
 import com.adipa.repositories.RepositoryTestBase;
 import dbgate.ServerDBClass;
 import dbgate.dbutility.DBConnector;
