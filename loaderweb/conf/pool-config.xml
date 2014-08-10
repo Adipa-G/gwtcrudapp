@@ -50,7 +50,7 @@
             -->
             <thread-stickiness>true</thread-stickiness>
             <!-- Connect string for the subpool -->
-            <connect-string name="mysql">jdbc:mysql://127.0.0.1:3306/inventoryman</connect-string>
+            <connect-string name="mysql">jdbc:mysql://127.0.0.1:3306/gwtcrudapp</connect-string>
         </connect-strings>
 
 

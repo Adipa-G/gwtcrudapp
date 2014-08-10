@@ -220,13 +220,5 @@ public class DBClassesTest
                 ex.printStackTrace();
             }
         }
-        try
-        {
-            VFMemoryStorageFactory.purgeDatabase(new File("unit-testing-dbclassestestbase").getCanonicalPath());
-        }
-        catch (IOException iox)
-        {
-            iox.printStackTrace();
-        }
     }
 }

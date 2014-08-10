@@ -210,13 +210,5 @@ public class RepositoryTests
                 ex.printStackTrace();
             }
         }
-        try
-        {
-            VFMemoryStorageFactory.purgeDatabase(new File("unit-testing-repositoriestestbase").getCanonicalPath());
-        }
-        catch (IOException iox)
-        {
-            iox.printStackTrace();
-        }
     }
 }

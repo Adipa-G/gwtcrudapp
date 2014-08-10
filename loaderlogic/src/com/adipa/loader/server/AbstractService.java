@@ -1,5 +1,6 @@
 package com.adipa.loader.server;
 
+import com.adipa.install.InstallUtil;
 import com.adipa.loader.server.exceptions.auth.UserNotLoggedInException;
 import com.adipa.loader.server.session.ISessionToServeletLink;
 import com.adipa.loader.server.session.SessionKeys;
