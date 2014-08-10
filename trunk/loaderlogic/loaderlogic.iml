@@ -9,11 +9,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="business" />
-    <orderEntry type="library" name="gwt.2.3.0" level="project" />
+    <orderEntry type="library" name="gwt.2.6.1" level="project" />
     <orderEntry type="library" name="dbgate.1.0.0" level="project" />
-    <orderEntry type="library" name="mysqlconnector.5.1.1.3" level="project" />
-    <orderEntry type="library" name="junit.4.0.0" level="project" />
-    <orderEntry type="library" name="derby.10.6.1.0" level="project" />
+    <orderEntry type="library" name="mysqlconnector.5.1.31" level="project" />
+    <orderEntry type="library" scope="TEST" name="junit-4.12-beta-1" level="project" />
+    <orderEntry type="library" name="derby.10.10.2.0" level="project" />
   </component>
 </module>
 

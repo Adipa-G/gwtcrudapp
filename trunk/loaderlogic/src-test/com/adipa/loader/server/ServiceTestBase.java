@@ -64,13 +64,5 @@ public class ServiceTestBase
                 ex.printStackTrace();
             }
         }
-        try
-        {
-            VFMemoryStorageFactory.purgeDatabase(new File("unit-testing-rpc-services").getCanonicalPath());
-        }
-        catch (IOException iox)
-        {
-            iox.printStackTrace();
-        }
     }
 }
