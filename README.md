@@ -22,6 +22,8 @@ There is a special service for CRUD operations defined as !ICRUDService where ba
 ## Loader Web ##
 This is the GWT front end. It's based on MVC architecture IModel, IView and IController. Views displayed in the main container is usually derived from MasterChildView or if it's CRUD operation it should be the CRUD view.
 
+###License
+GNU GPL V3
 
 
 
