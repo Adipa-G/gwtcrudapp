@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<project name="Index" default="build" basedir=".">
+<project name="Index" default="all" basedir=".">
     <!-- Arguments to gwtc and devmode targets -->
     <property name="gwt.args" value=""/>
 
@@ -219,5 +219,12 @@
         <delete dir="war/WEB-INF/classes" failonerror="false"/>
         <delete dir="war/index" failonerror="false"/>
     </target>
-
+	
+	<target name="all">
+        <antcall target="clean"/>
+        <antcall target="javac"/>
+        <antcall target="test.dev"/>
+		<antcall target="test.prod"/>
+        <antcall target="war"/>
+    </target>
 </project>
